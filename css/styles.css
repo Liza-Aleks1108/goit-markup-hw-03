@@ -134,10 +134,7 @@ img {
 
 .address-list{
     display: flex;
-}
-
-.address-item + .address-item{
-    margin-left: 40px;
+    gap: 40px;
 }
 
 .address-link {
