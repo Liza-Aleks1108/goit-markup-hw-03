@@ -63,8 +63,8 @@ img {
     border: 0;
     padding: 0;
     white-space: nowrap;
+    clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    clip-path: inset(50%);
     overflow: hidden;
 }
 
@@ -75,7 +75,6 @@ img {
 
 /* Logo */
 .header .logo{
-    margin-left: 156px;
     margin-right: 76px;
 }
 
@@ -106,7 +105,7 @@ img {
 .header-container{
     display: flex;
     align-items: center;
-    margin-right: auto;
+    justify-content: ;
 }
 
 .header-nav{
