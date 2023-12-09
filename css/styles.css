@@ -112,20 +112,12 @@ img {
 .header-nav {
     display: flex;
     align-items: center;
-
     margin-right: auto;
 }
 
 .header-list{
     display: flex;
-}
-
-.header-item{
-    margin-right: 40px;
-}
-
-.header-item:last-child{
-    margin-right: 0;
+    gap: 40px;
 }
 
 .header-link{
